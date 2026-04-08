@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>RoboForge</title>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">
+                <img class="logoimg" src="img/download (1).png">
+            </div>
+            <ul class="nav-links">
+                <li><a href="">Home</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="index3.html">Portfolio</a></li>
+                <li><a href="index2.html">History</a></li>
+                <div class="btns">
+                    <button class="btn" id="openForm">Login</button>
+                </div>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="overlay" id="overlay"></div>
+    <div class="form-popup" id="formBox">
+        <h2>Register</h2>
+        <input type="text" id="name" placeholder="Your Name">
+        <input type="text" id="phone" placeholder="Phone Number">
+        <input type="password" id="password" placeholder="Password">
+        <button class="btn" id="registerBtn">Finish</button>
+        <button class="close-btn" id="closeBtn">✖️</button>
+        <p id="form-message"></p>
+    </div>
+
+    <main>
+        <div class="welcome-background-img">
+            <div class="welcome">
+                <h1 class="welcome-h1">Welcome to RoboForge</h1>
+                <p class="welcome-text">RoboForge is a place where creativity, technology, and robotics come together.
+                    Here you can design and assemble your very own robot from different parts and components. Choose the
+                    body, add sensors, select powerful motors, and customize your robot exactly the way you want.<br><br>
+                    Whether you are curious about robotics, love building things, or want to experiment with new ideas,
+                    RoboForge gives you the tools to bring your imagination to life.<br><br>
+                    Start building, explore new possibilities, and create the robot of your dreams.
+                    Build it. Customize it. Bring it to life with RoboForge.</p>
+            </div>
+        </div>
+
+        <div class="choose-robot-presets">
+            <h1 class="h1-choose-presets">Choose a preset robot</h1>
+            <div class="presetrobot-cards">
+                <img class="cardimg" src="https://i.postimg.cc/m29LrK1M/f77bb6c9-a74b-4946-bcfb-a3c1ed863b03.png">
+                <p>NovaX Humanoid Assistant</p>
+                <a href="#" class="buy-btn">Buy</a>
+                <h2 class="price">2400$</h2>
+            </div>
+            <div class="presetrobot-cards">
+                <img class="cardimg" src="https://i.postimg.cc/HsGwjcks/156bd09e-b232-4319-907e-a3f1535dd27e.png">
+                <p>Atlas Worker Bot</p>
+                <a href="#" class="buy-btn">Buy</a>
+                <h2 class="price">2450$</h2>
+            </div>
+            <div class="presetrobot-cards">
+                <img class="cardimg" src="https://i.postimg.cc/zfmvFW4p/5877369055172300169-121.jpg">
+                <p>Scout Mini Robot</p>
+                <a href="#" class="buy-btn">Buy</a>
+                <h2 class="price">3050$</h2>
+            </div>
+        </div>
+
+        <div class="make-a-robot">
+            <div class="choose-yours-div">
+                <p class="choose-yours-p">Don't see a robot that fits your needs?</p>
+                <h1 class="choose-yours-h1">Create your own!</h1>
+            </div>
+
+            <h1 class="h1-choose-presets">Choose a head for your robot</h1>
+            <div class="head-in-midell">
+                <div class="presetrobot-cards">
+                    <img class="cardimg" src="https://i.postimg.cc/V679nFWh/3.png">
+                    <p>NeuroCore Prime Head</p>
+                    <h2 class="price">2500$</h2>
+                </div>
+                <div class="presetrobot-cards">
+                    <img class="cardimg" src="https://i.postimg.cc/sD0rF8C8/9c7ec8e6-5f57-40d3-92f8-fc88c3a07343.png">
+                    <p>NeuroCore Midnight Black</p>
+                    <h2 class="price">2800$</h2>
+                </div>
+                <div class="presetrobot-cards">
+                    <img class="cardimg" src="https://i.postimg.cc/T1FrHYSb/4.png">
+                    <p>NeuroCore ComboX head</p>
+                    <h2 class="price">3000$</h2>
+                </div>
+            </div>
+        </div>
+
+        <h1 class="h1-choose-presets">Choose an upper body for your robot</h1>
+        <div class="body-in-midell">
+            <div class="presetrobot-cards">
+                <img class="cardimg" src="https://i.postimg.cc/NFJGyCQR/de7d67f2-0271-4c99-ba08-57458097dfa7.png">
+                <p>ForgeMech WorkCore</p>
+                <h2 class="price">4000$</h2>
+            </div>
+            <div class="presetrobot-cards">
+                <img class="cardimg" src="https://i.postimg.cc/L4vVQc3h/44ad7fee-6f39-46f9-8d55-3045caa1a44b.png">
+                <p>Axiom Business Frame</p>
+                <h2 class="price">4500$</h2>
+            </div>
+            <div class="presetrobot-cards">
+                <img class="cardimg" src="https://i.postimg.cc/0yv26BhV/7cf9a704-7d6c-49e5-8c7c-d939837eebb9.png">
+                <p>BaseCore Unit</p>
+                <h2 class="price">3350$</h2>
+            </div>
+        </div>
+
+        <h1 class="h1-choose-presets">Choose a lower body for your robot</h1>
+        <div class="lowerbody-in-midell">
+            <div class="presetrobot-cards">
+                <img class="cardimg" src="https://i.postimg.cc/pdCdbL31/3b7d1366-b21c-4667-9ae9-160b6dafa5aa.png">
+                <p>TitanLegs X</p>
+                <h2 class="price">2000$</h2>
+            </div>
+            <div class="presetrobot-cards">
+                <img class="cardimg" src="https://i.postimg.cc/8khRrGws/967dce99-ab39-4250-8944-9fdca32f3ae3.png">
+                <p>CoreLegs Lite</p>
+                <h2 class="price">1500$</h2>
+            </div>
+            <div class="presetrobot-cards">
+                <img class="cardimg" src="https://i.postimg.cc/fyhgjvGQ/d14a0294-8df8-4945-976b-d785b7ba7002.png">
+                <p>PatrolCore Legs</p>
+                <h2 class="price">2500$</h2>
+            </div>
+        </div>
+
+        <div class="builder-result">
+            <h2>Your Robot</h2>
+            <div id="summary"></div>
+            <button onclick="buildRobot()" class="btn">Build Robot</button>
+            <h3 id="build-message"></h3>
+        </div>
+    </main>
+
+    <footer>
+        </div>
+        <div class="footer-col">
+            <ul class="links">
+                <h4>Search<h4>
+                        <li><a href="#">Main</a></li>
+                        <li><a href="#">Help</a></li>
+                        <li><a href="#">Contacts</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <div class="social-icons">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+            </div>
+        </div>
+        </div>
+        <div class="copyright">
+            <p>2026 Company. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
